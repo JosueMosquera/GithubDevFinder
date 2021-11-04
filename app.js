@@ -37,7 +37,7 @@ const pintarCard = (data)=>{
     following.textContent=data.following
     const location = document.querySelector('.location-text')
     if(!data.location){
-        location.textContent='No avalible'
+        location.textContent='Not avaliable'
     }
     else{
         location.textContent=data.location
