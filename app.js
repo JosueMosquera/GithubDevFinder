@@ -18,7 +18,7 @@ const pintarCard = (data)=>{
     const userTitle = document.querySelector('.user-title')
     userTitle.textContent=data.name
     const userNickname = document.querySelector('.user-nickname')
-    userNickname.textContent=data.login
+    userNickname.textContent=`@${data.login}`
     const joinedDate = document.querySelector('.joined-date')
     const parsedDate = new Date(data.created_at).toLocaleDateString()
     joinedDate.textContent=`joined ${parsedDate}`
