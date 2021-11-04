@@ -36,7 +36,12 @@ const pintarCard = (data)=>{
     const following = document.querySelector('.following-span')
     following.textContent=data.following
     const location = document.querySelector('.location-text')
-    location.textContent=data.location
+    if(!data.location){
+        location.textContent='No avalible'
+    }
+    else{
+        location.textContent=data.location
+    }
     const link = document.querySelector('.link-github')
     link.textContent=data.html_url
     link.setAttribute('href',data.html_url)
