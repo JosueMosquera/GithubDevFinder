@@ -8,11 +8,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 20px 15px;
+    margin: 20px 18px;
 }
 body{
     background-color: rgb(15, 8, 63);
     color: white;
+    height: 100vh;
+    width: 100vw;
 }
 footer{
     margin: 20px 20px;
@@ -77,14 +79,14 @@ footer{
     color: rgb(41, 100, 228);
 }
 .description{
-    margin: 15px 10px;
+    margin: 15px 0px;
     height: auto;
-    width: auto;
+    width: 100%;
    
 }
 .bio{
     text-align: center;
-   font-size: 0.70rem;
+   font-size: 0.71rem;
    font-weight: bold;
 }
 .stats{
