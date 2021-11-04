@@ -33,6 +33,7 @@ footer{
 .form-search{
     padding: 15px;
 }
+
 .fas.fa-search{
     color: rgb(41, 100, 228);
     font-size: 1.2rem;
@@ -76,10 +77,15 @@ footer{
     color: rgb(41, 100, 228);
 }
 .description{
-    text-align: center;
     margin: 15px 10px;
-    font-size: 1.05rem;
+    height: auto;
+    width: auto;
    
+}
+.bio{
+    text-align: center;
+   font-size: 0.72rem;
+   font-weight: 600;
 }
 .stats{
     background-color: rgb(15, 8, 63);
