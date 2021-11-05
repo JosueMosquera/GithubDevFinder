@@ -21,8 +21,10 @@ footer{
     margin: 20px 20px;
 }
 .light{
-    letter-spacing: 5px;
+    letter-spacing: 4px;
+    margin-top: 7px;
 }
+
 .search{
     display: flex;
     flex-direction: row;
