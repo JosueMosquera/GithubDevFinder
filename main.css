@@ -16,6 +16,7 @@ body{
     color: white;
     height: 100vh;
     width: 100vw;
+    
 }
 footer{
     margin: 20px 20px;
@@ -30,6 +31,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(12, 52, 85);
+    color: blue;
     margin: 10px 15px;
     border-radius: 10px;
     height: auto;
@@ -47,7 +49,21 @@ footer{
     all: unset;
     font-size: 0.82rem;
 }
-
+.theme{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.fas.fa-sun{
+    cursor: pointer;
+    font-size: 0.95rem;
+    margin-top: 7px;
+}
+.fas.fa-moon{
+    cursor: pointer;
+    font-size: 0.95rem;
+    margin-top: 7px;
+}
 .btn-search{
     background-color:rgb(41, 100, 228) ;
     border: none;
@@ -55,9 +71,11 @@ footer{
     margin: 5px;
     border-radius: 10px;
     width: 60px;
+   
 }
 .btn-search :hover{
     cursor: pointer;
+
 }
 .avatar{
     height:80px;
@@ -107,6 +125,7 @@ footer{
 
 .stats p{
     color: rgb(200, 199, 199);
+
 }
 .contact{
     margin: 20px 5px;
