@@ -85,7 +85,7 @@ footer{
     height: auto;
     
    
-}
+}   
 .bio{
     text-align: center;
    font-size: 0.71rem;
@@ -119,7 +119,6 @@ margin: 0px 5px;
     text-decoration: none;
     color: white;
 }
-
 @media screen and (min-width:520px) {
     .contact{
         display: grid;
@@ -138,7 +137,7 @@ margin: 0px 5px;
         margin: 20px 25px;
     }
 }
-@media screen and (min-width:1180px) {
+@media screen and (min-width:1200px) {
    .card-container{
        margin: 0px 260px;
        display: grid;
@@ -181,6 +180,7 @@ margin: 0px 5px;
        grid-row: 1/4;
     }
     .joined-container{
+        grid-row: 1;
         margin-top: 20px;
         grid-column: 3/4;
     }
@@ -194,6 +194,16 @@ margin: 0px 5px;
     .joined-date{
         font-size: 1rem;
         color: rgb(175, 175, 175);
+        grid-column: 3/4;
+        grid-row: 1;
+    }
+    .info-user{
+        display: grid;
+        
+        grid-column: 2/4;
+    }
+    .user-nickname{
+        grid-column: 1;
     }
    .description{
        grid-column: 2/4;
