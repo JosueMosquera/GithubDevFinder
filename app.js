@@ -17,7 +17,7 @@ const pintarCard = (data) => {
   if (!data.avatar_url) {
     avatar.setAttribute(
       "src",
-      "https://images.unsplash.com/photo-1555861496-0666c8981751?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+      "https://cdn.pixabay.com/photo/2016/08/07/15/34/do-not-take-photos-1576438_960_720.png"
     );
   } else {
     avatar.setAttribute("src", data.avatar_url);
